@@ -15,13 +15,13 @@ public class Trump {
         }
 
         Collections.shuffle(deck);
+        int num = deck.get(0) % 13;
+        if (num == 0){
+            num = 13;
+        }
+        System.out.println(num);
         /*for (int i = 0;i<deck.size();i++){
             System.out.println(deck.get(i));
         }*/
-    }
-
-
-    public int getNumber(){
-        return number;
     }
 }

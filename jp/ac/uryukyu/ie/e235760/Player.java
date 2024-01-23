@@ -15,5 +15,5 @@ public class Player {
 
     public void addCard(Trump trump){
         playerHand.add(new Trump());
-    } 
+    }
 }
