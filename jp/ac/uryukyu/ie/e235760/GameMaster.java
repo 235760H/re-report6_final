@@ -25,6 +25,14 @@ public class GameMaster {
             }else{
                 System.out.println(player2.getName() + "の勝ちです。");
             }
+        }else if (input_text.equals("low")) {
+            if (player1.getHand() < player2.getHand()) {
+                System.out.println(player1.getName() + "の勝ちです。");
+            }else{
+                System.out.println(player2.getName() + "の勝ちです。");
+            }
+        }else{
+            System.out.println("highかlowを選んでください。");
         }
         return true;
     }

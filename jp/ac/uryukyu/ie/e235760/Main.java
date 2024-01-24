@@ -15,6 +15,10 @@ public class Main {
         child.Draw(decks);
         dealer.Draw(decks);
 
+        System.out.println(dealer.getName() + "のカードは" + dealer.getHand() + "です。");
+
         gamemaster.scanner(child, dealer);
+
+        System.out.println(child.getName() + "のカードは" + child.getHand() + "でした。");
     }
 }

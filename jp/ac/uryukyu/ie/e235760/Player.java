@@ -21,7 +21,6 @@ public class Player {
     public void Draw(Trump decks){
         Trump trump = new Trump();
         hand = trump.shuffleDeck();
-        System.out.println("あなたの手札は" + hand);
     }
 }
 
