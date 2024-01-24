@@ -5,7 +5,6 @@ import java.util.Collections;
 
 public class Trump {
     private int number;
-    private int card_index = 0;
 
     ArrayList<Integer> deck = new ArrayList<>(52);
 
@@ -26,14 +25,5 @@ public class Trump {
             System.out.println(deck.get(i));
         }*/
         return number;
-    }
-
-    public Card getNumber(){
-        Card card_num = new Card();
-        int card_no = 0;
-
-        card_no = deck.get(card_index);
-        card_index++;
-        return card_num;
     }
 }

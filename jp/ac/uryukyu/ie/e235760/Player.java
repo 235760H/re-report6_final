@@ -1,7 +1,5 @@
 package jp.ac.uryukyu.ie.e235760;
 
-import java.util.ArrayList;
-
 public class Player {
     private int hand;
     private String name;
